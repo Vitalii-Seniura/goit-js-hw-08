@@ -26,5 +26,8 @@ function onImgClick(event) {
     }
 };
 
+var lightbox = new SimpleLightbox('.gallery a', {
+    captionsData: 'data-caption', 
+    captionPosition: 'bottom', captionDelay: '250',  });
 
 
